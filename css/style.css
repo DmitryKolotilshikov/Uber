@@ -1032,6 +1032,12 @@ nav {
   }
 }
 
+@media (orientation: landscape) {
+  body {
+    overflow: visible !important;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
