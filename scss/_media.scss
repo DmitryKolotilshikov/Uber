@@ -1,3 +1,4 @@
+
 @media (max-width: 1199px) {
    
     .menu {
@@ -130,7 +131,7 @@
                 font-size: 22px;
             }                
         }
-        }
+     }
 
     .burger {
         display: block;
@@ -186,6 +187,10 @@
             margin: 0 auto;
             width: 190px;
             font-size: 15px;
+
+            &:hover {
+                background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%); 
+            }
         }
     }
     .promo {
@@ -209,6 +214,10 @@
         }
         .promo_btn {
             margin-top: 100px;
+
+            &:hover {
+                background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%); 
+            }
         }
     }
 
@@ -247,6 +256,10 @@
         }
     }
 
+    .require {
+        padding: 30px 0 0 0;
+    }
+
     .world {
         height: 590px;
         .world_content {
@@ -261,6 +274,20 @@
 
 
 @media (max-width: 575px) {
+    
+    .menu {       
+        width: 80%;                
+        .list_item {
+            width: 100%;
+            width: 100%;
+            padding: 5px 0;
+            .link_item { 
+                display: block;                    
+                font-size: 18px;
+            }                
+        }
+    }
+    
     .subheader {
         height: 60px;
         &_logo {
@@ -275,7 +302,7 @@
         &_btn {
             width: 110px;
             height: 22px;
-            font-size: 10px;
+            font-size: 10px;  
         }
     }
     .promo {
@@ -294,7 +321,7 @@
             margin-top: 35px;
         }         
          .promo_btn {
-            margin-top: 70px;
+            margin-top: 70px;            
          }
      }
      .mobile {
@@ -365,6 +392,21 @@
             height: 290px;
         }
     }
+
+    .footer_content_social {
+        margin: 10px 0 30px;
+        order: 2;
+    }
+    .footer_content_contacts {
+        margin: 0;
+        order: 1;
+    }
+    .footer_content_apps {
+        order: 3;
+    }
+    .footer_content_apps img {                
+        width: 270px;
+    }
 }
 
 
@@ -428,8 +470,8 @@
         }  
     }  
     .footer{
-       .footer_content {
-            .footer_content_apps img {
+       .footer_content {          
+            .footer_content_apps img {                
                 width: 270px;
             }
        } 
